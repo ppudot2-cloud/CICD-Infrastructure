@@ -1,0 +1,15 @@
+{
+  "EnvironmentVariables": [
+    {
+      "SchemaName": "new_ExampleVariable",
+      "Value": "placeholder-Uat"
+    }
+  ],
+  "ConnectionReferences": [
+    {
+      "LogicalName": "new_ExampleDataverse_00000",
+      "ConnectionId": "#{UAT_DataverseConnectionId}#",
+      "ConnectorId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+    }
+  ]
+}
